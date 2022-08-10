@@ -404,17 +404,17 @@ java_library {
 
 java_library {
     name: "android_module_lib_stubs_current",
-    defaults: [
-        "android.jar_defaults",
-        "android_stubs_dists_default",
-    ],
-    static_libs: [
-        "android-non-updatable.stubs.module_lib",
-        "art.module.public.api.stubs.module_lib",
-    ],
-    dist: {
-        dir: "apistubs/android/module-lib",
-    },
+    // defaults: [
+    //     "android.jar_defaults",
+    //     "android_stubs_dists_default",
+    // ],
+    // static_libs: [
+    //     "android-non-updatable.stubs.module_lib",
+    //     "art.module.public.api.stubs.module_lib",
+    // ],
+    // dist: {
+    //     dir: "apistubs/android/module-lib",
+    // },
 }
 
 java_library {
